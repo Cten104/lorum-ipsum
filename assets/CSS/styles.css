@@ -90,3 +90,13 @@ body {
   flex-direction: column;
   min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
+
+#darkmode {
+  margin: 0 auto;
+  border: none;
+  display: block;
+  padding: 1%;
+  background-color: #b3b3b3;
+  font-size: 15px;
+  border-radius: 10px;
+}
