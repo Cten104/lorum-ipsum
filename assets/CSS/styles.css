@@ -19,6 +19,13 @@ header {
   text-align: center;
 }
 
+#banner {
+  max-width: 100%;
+  max-height: 100%; /* Set a maximum height for the images */
+  display: block;
+  margin: 0 auto;
+}
+
 /* Style rule for navigation area */
 nav {
   text-align: center;
@@ -59,21 +66,16 @@ footer {
   padding: 10px 0;
 }
 
-.email-button {
-  color: #fff;
+footer p a {
+  color: #ffffff;
   text-decoration: none;
-  border-bottom: 1px dotted #fff;
-}
-
-.email-button:hover {
-  border-bottom: 1px solid #fff;
 }
 
 @media only screen and (max-width: 600px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 #banner {
     width: 20%;
@@ -81,10 +83,10 @@ footer {
 
 }
 body {
-    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
-  }
+  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+}
