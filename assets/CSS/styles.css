@@ -1,0 +1,77 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebe783;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color:grey;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  nav a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+  }
+  nav a:hover {
+    background-color: rgb(5, 55, 13);
+  }
+  nav li {
+    display: inline-block;
+    width: 20%;
+  }
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.email-button {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dotted #fff;
+}
+
+.email-button:hover {
+    border-bottom: 1px solid #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+#banner {
+    width: 20%;
+    
+
+}
