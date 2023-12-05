@@ -19,11 +19,12 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul style="position: relative;">
                 <!--style nav bar horizontal orientation-->
                 <li><a href="home.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="submit.html">Submit</a></li>
+                <li style="position: absolute; right: 30px; top: 12px;"><input type="checkbox" class="checkbox" id="chk" /><label class="label" for="chk" style="font-size: initial;"><i class="fas fa-moon"></i><i class="fas fa-sun"></i><div class="ball"></div></label></li>
                 <!--<li><a href="" style="margin-right: 50px;"></a></li><-->
             </ul>
         </nav>
@@ -31,16 +32,10 @@
 
     <main>
                 <!--<button id="darkmode" onclick="darkMode()">Dark Mode</button>-->
-                <div>
-                    <input type="checkbox" class="checkbox" id="chk" />
-                    <label class="label" for="chk">
-                        <i class="fas fa-moon"></i>
-                        <i class="fas fa-sun"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-            
-        <p>Gallery message, add here (none atm, need to put images)</p>
+        <div class="page-content">
+            <p>Gallery message, add here (none atm, need to put images)</p>
+        </div>
+        
         <!-- Additional homepage content goes here -->
     </main>
 

@@ -19,45 +19,39 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul style="position: relative;">
                 <!--style nav bar horizontal orientation-->
                 <li><a href="home.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="submit.html">Submit</a></li>
+                <li style="position: absolute; right: 30px; top: 12px;"><input type="checkbox" class="checkbox" id="chk" /><label class="label" for="chk" style="font-size: initial;"><i class="fas fa-moon"></i><i class="fas fa-sun"></i><div class="ball"></div></label></li>
                 <!--<li><a href="" style="margin-right: 50px;"></a></li><-->
             </ul>
         </nav>
     </header>
 
     <main>
-                <!--<button id="darkmode" onclick="darkMode()">Dark Mode</button>-->
-                <div>
-                    <input type="checkbox" class="checkbox" id="chk" />
-                    <label class="label" for="chk">
-                        <i class="fas fa-moon"></i>
-                        <i class="fas fa-sun"></i>
-                        <div class="ball"></div>
-                    </label>
-                </div>
-        <h1>Submit your own work to be featured on Keeley's digital gallery!</h1>
-        <p><em>Please note: All work will be analyzed by our team to ensure the art is AI-generated. Any original pieces will be rejected.</em></p>
-
-        <form action="success.html" method="get" name="Form" id="Form">
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" required placeholder="Name"><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" required placeholder="Email"><br>
-            <label for="art-description">Art Description:</label><br>
-            <textarea id="art-description" name="art-description" rows="4" cols="50" required placeholder="Enter your art description here..."></textarea><br>
-            <label for="avatar">Upload Here:</label>
-            <input type="file" id="artwork-upload" name="artwork-upload" accept="image/png, image/jpeg"/><br>
-            
-            <input type="submit" id="submit" value="Submit">
-        </form>
-
-        <h3>Any questions?</h3>
-        <h3>Email us: contact@keeleygenart.org</h3>
-        <!-- Additional homepage content goes here -->
+        <div class="page-content">
+            <h1>Submit your own work to be featured on Keeley's digital gallery!</h1>
+            <p><em>Please note: All work will be analyzed by our team to ensure the art is AI-generated. Any original pieces will be rejected.</em></p>
+    
+            <form action="success.html" method="get" name="Form" id="Form">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="Name"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="Email"><br>
+                <label for="art-description">Art Description:</label><br>
+                <textarea id="art-description" name="art-description" rows="4" cols="50" required placeholder="Enter your art description here..."></textarea><br>
+                <label for="avatar">Upload Here:</label>
+                <input type="file" id="artwork-upload" name="artwork-upload" accept="image/png, image/jpeg"/><br>
+                
+                <input type="submit" id="submit" value="Submit">
+            </form>
+    
+            <h3>Any questions?</h3>
+            <h3>Email us: contact@keeleygenart.org</h3>
+            <!-- Additional homepage content goes here -->
+        </div>
     </main>
 
     <footer>

@@ -119,3 +119,7 @@ body {
   font-size: 15px;
   border-radius: 10px;
 }
+
+.page-content {
+  margin-top: 20px;
+}
