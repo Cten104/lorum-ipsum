@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <img id="banner" src="assets/images/logo.jpeg" alt="logo" width="1000">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keeley Gallery of Generative Art - Home</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/NEW DarkMode.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+        <script src="assets/js/scripts.js" async></script>
+        <script src="assets/js/New darkmode.js" async></script>
+    
+        <!-- add css and js link-->
+    </head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!--style nav bar horizontal orientation-->
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="submit.html">Submit</a></li>
+                <!--<li><a href="" style="margin-right: 50px;"></a></li><-->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+                <!--<button id="darkmode" onclick="darkMode()">Dark Mode</button>-->
+                <div>
+                    <input type="checkbox" class="checkbox" id="chk" />
+                    <label class="label" for="chk">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                        <div class="ball"></div>
+                    </label>
+                </div>
+        <h1>Submit your own work to be featured on Keeley's digital gallery!</h1>
+        <p><em>Please note: All work will be analyzed by our team to ensure the art is AI-generated. Any original pieces will be rejected.</em></p>
+
+        <form action="success.html" method="get" name="Form" id="Form">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required placeholder="Name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required placeholder="Email"><br>
+            <label for="art-description">Art Description:</label><br>
+            <textarea id="art-description" name="art-description" rows="4" cols="50" required placeholder="Enter your art description here..."></textarea><br>
+            <label for="avatar">Upload Here:</label>
+            <input type="file" id="artwork-upload" name="artwork-upload" accept="image/png, image/jpeg"/><br>
+            
+            <input type="submit" id="submit" value="Submit">
+        </form>
+
+        <h3>Any questions?</h3>
+        <h3>Email us: contact@keeleygenart.org</h3>
+        <!-- Additional homepage content goes here -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Keeley Gallery of Generative Art</p>
+        <!--add contact button-->
+        <p><small><i><a href="mailto:lorum&ipsum@keeley.com" class="email-button">Contact Us</a></i></small></p>
+    </footer>
+</body>
+
+</html>

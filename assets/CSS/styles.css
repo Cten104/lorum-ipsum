@@ -1,0 +1,121 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#banner {
+  max-width: 100%;
+  max-height: 100%; /* Set a maximum height for the images */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style rule for navigation area */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav li:hover {
+  background-color: #7e7e7e;
+}
+
+nav li a {
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+#banner {
+    width: 20%;
+    
+
+}
+body {
+  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+}
+
+#darkmode {
+  margin: 0 auto;
+  border: none;
+  display: block;
+  padding: 1%;
+  background-color: #b3b3b3;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#submit {
+  margin: 0 left;
+  border: none;
+  display: block;
+  padding: 0.5%;
+  background-color: #b3b3b3;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#artwork-upload {
+  margin: 0 left;
+  border: none;
+  padding: 0.5%;
+  background-color: #b3b3b3;
+  font-size: 15px;
+  border-radius: 10px;
+}
