@@ -134,3 +134,7 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
+
+.purchase-button:hover {
+  background-color: rgb(60, 160, 37);
+}
