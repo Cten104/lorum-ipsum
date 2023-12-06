@@ -1,1 +1,19 @@
+#submit {
+    margin: 0 left;
+    border: none;
+    display: block;
+    padding: 0.5%;
+    background-color: #b3b3b3;
+    font-size: 15px;
+    border-radius: 10px;
+  }
 
+  #artwork-upload {
+    margin: 0 left;
+    border: none;
+    padding: 0.5%;
+    background-color: #b3b3b3;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+  
