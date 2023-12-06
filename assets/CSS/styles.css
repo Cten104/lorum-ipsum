@@ -110,6 +110,9 @@ body {
   border-radius: 10px;
 }
 
-.page-content {
-  margin-top: 20px;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
