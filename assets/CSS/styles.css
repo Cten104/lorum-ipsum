@@ -1,4 +1,4 @@
-body, h1, h2, h3, p, ul {
+body, h1, h2, h3, h4, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -16,11 +16,34 @@ header {
 }
 .welcome {
     text-align: center;
+}
 
+.intro {
+    text-align: center;
+}
+
+.spons {
+    text-align: center;
+}
+
+.art {
+    text-align: center;
 }
 header h1 {
     margin: auto;  
 }
+
+button {
+    background-color: grey;
+    border: 2px solid black;
+    color: white; 
+    display: block;
+    margin: auto;
+}
+hr.solid {
+    border-top: 3px solid green;
+    width: 70%;
+  }
 
 nav {
     background-color:grey;
@@ -49,19 +72,9 @@ nav {
   }
 
 main {
-    text-align: center;
     padding: 40px;
     margin-left: 20%;
     margin-right: 20%;
-}
-
-h2 {
-    
-    float: left;
-}
-
-h4{
-
 }
 
 footer {
@@ -72,7 +85,7 @@ footer {
 }
 
 .email-button {
-    color: #fff;
+    color: blue;
     text-decoration: none;
     border-bottom: 1px dotted #fff;
 }
@@ -93,6 +106,7 @@ footer {
     margin: auto;
 
 }
+
 hr.solid {
     border-top: 3px solid green;
     width: 70%;
