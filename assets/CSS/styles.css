@@ -176,6 +176,7 @@ body {
 .gallerytext h2 {
   color: #333;
   margin-bottom: 10px;
+  font-size: 2.1em;
 }
 
 .gallerytext p, .gallerytext ol {
