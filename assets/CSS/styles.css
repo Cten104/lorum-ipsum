@@ -138,19 +138,19 @@ body {
 }
 
 .art-item h3 {
-  font-size: 5.0em; 
+  font-size: 4.0em; 
   margin: 10px 0; 
 }
 
 .art-item p {
-  font-size: 3.0em; 
+  font-size: 2.0em; 
   margin: 5px 0; 
 }
 
 .purchase-button {
   display: inline-block;
   margin-top: 10px;
-  font-size: 3em; 
+  font-size: 2em; 
   padding: 5px 10px;
   background-color: #383434;
   color: white;
