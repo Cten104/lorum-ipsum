@@ -1,4 +1,5 @@
-body, h1, h2, h3, p, ul {
+/* styles for homepage below*/
+body, h1, h2, h3, h4, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -82,8 +83,9 @@ footer p a {
   }
 }
 #banner {
+    display: block;
     width: 20%;
-    
+    margin: auto;
 
 }
 body {
@@ -198,3 +200,8 @@ body {
 }
 
 /*Gallery CSS Above*/
+
+hr.solid {
+    border-top: 3px solid green;
+    width: 70%;
+  }
