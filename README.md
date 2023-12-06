@@ -10,7 +10,7 @@ Lilah:
 - Added CSS to homepage!
 
 David:
-- Tweaked and reconstructed the dark mode feature that was already added. worked on css and editing the new darkmode button and integrating it into the navigation bar.
+- Tweaked and reconstructed the dark mode feature that was already added. worked on css, javascript and editing the new darkmode button and integrating it into the navigation bar.
 - Added Gallery page pictures.
 
 Alberdi:
