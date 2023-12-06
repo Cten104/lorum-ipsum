@@ -110,6 +110,8 @@ body {
   border-radius: 10px;
 }
 
+/*Gallery CSS Below*/
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -129,6 +131,12 @@ body {
   overflow: hidden;
 }
 
+.art-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .purchase-button {
   display: inline-block;
   margin-top: 10px;
@@ -142,3 +150,5 @@ body {
 .purchase-button:hover {
   background-color: rgb(60, 160, 37);
 }
+
+/*Gallery CSS Above*/
