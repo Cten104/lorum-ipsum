@@ -2,18 +2,6 @@
 	box-sizing: border-box;
 }
 
-/*
-body {
-	background-color: #fafafa;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	margin: 0;
-	transition: background 0.2s linear;
-}
-*/
-
 body.dark {
 	background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     color: #fff;
