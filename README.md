@@ -12,6 +12,7 @@ Lilah:
 David:
 - Tweaked and reconstructed the dark mode feature that was already added. worked on css, javascript and editing the new darkmode button and integrating it into the navigation bar.
 - Added Gallery page pictures.
+- incorporated daark mode banner picture and all of the code to go along with it and getting the banner to switch when dark mode is toggled.
 
 Alberdi:
 - Tweaked and added more elements to the CSS, incorporated a dark mode feature, expanded upon the initial HTML structure, fixed minor HTML errors for the logo, improved the dark mode button's appearance, and integrated forms for the submit page.
