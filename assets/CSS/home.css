@@ -3,21 +3,6 @@ hr.solid {
   width: 70%;
 }
 
-#banner {
-  display: block;
-  width: 100%;
-  margin: auto;
-}
-/*
-body {
-background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
-width: 80%;
-margin: 0 auto;
-display: flex;
-flex-direction: column;
-min-height: 100vh; 
-}
-*/
 img, video {
   max-width: 100%;
 }

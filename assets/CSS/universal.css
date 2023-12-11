@@ -10,18 +10,15 @@ header {
   text-align: center;
 }
 
-#banner {
+#banner, #bannerDark {
   width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
-#bannerDark {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+#banner, #bannerDark {
+  vertical-align: middle;
 }
 
 body {
