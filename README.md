@@ -5,6 +5,11 @@ Team Notes:
 
 Charlie:
 - Created repo and all necessary files; shared access with team
+- Generated all images
+- Created gallery page, styled, generated and added all images, generated, added and styled text 
+- Split one css file into one for each page to avoid future conflicts
+- Copied style and layout of gallery page to home page for sold art, added additional text content
+- Re-styled remaining content of homepage
 
 Lilah:
 - Added CSS to homepage!
