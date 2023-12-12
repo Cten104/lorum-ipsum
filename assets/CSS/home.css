@@ -4,10 +4,10 @@ hr.solid {
 }
 
 img, video {
-  max-width: 100%;
+  max-width: 150%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 600px) {
 nav ul li {
   display: block;
   margin-bottom: 10px;
