@@ -17,14 +17,17 @@ nav ul li {
 /*for the gallery section*/
 
 .gallery {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+  /*display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 20px;
+  gap: 20px;*/
 }
 
 .art-item {
-  flex-basis: 45%; 
+  /*flex-basis: 45%;*/
   border: 2px solid #383434; 
   padding: 10px;
   box-sizing: border-box;
