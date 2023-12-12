@@ -85,3 +85,7 @@ p, ol {
   line-height: 1.6;
   font-size: 1.5em;
 }
+
+img, video {
+  max-width: 100%;
+}
