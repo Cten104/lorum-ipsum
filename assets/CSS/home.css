@@ -51,7 +51,7 @@ nav ul li {
   margin: 5px 0; 
 }
 
-.gallerytext {
+.recently-sold-text {
   border: 1px solid #383434;
   padding: 20px; 
   margin: 20px 0;
@@ -62,22 +62,22 @@ nav ul li {
   margin-right: auto;
 }
 
-.gallerytext h2 {
+.recently-sold-text h2 {
   color: #333;
   margin-bottom: 10px;
   font-size: 2.5em;
 }
 
-.gallerytext p, .gallerytext ol {
+.recently-sold-text p, .recently-sold-text ol {
   color: #333;
   line-height: 1.6;
   font-size: 1.8em;
 }
 
-.gallerytext ol {
+.recently-sold-text ol {
   padding-left: 20px;
 }
 
-.gallerytext li {
+.recently-sold-text li {
   margin-bottom: 10px;
 }
