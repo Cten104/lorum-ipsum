@@ -24,7 +24,7 @@ nav ul li {
 }
 
 .art-item {
-  flex-basis: 40%; 
+  flex-basis: 45%; 
   border: 2px solid #383434; 
   padding: 10px;
   box-sizing: border-box;
@@ -36,7 +36,7 @@ nav ul li {
 }
 
 .art-item img {
-  width: 100%;
+  width: auto;
   height: auto;
   display: block;
 }
