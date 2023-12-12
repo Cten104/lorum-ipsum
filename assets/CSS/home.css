@@ -32,7 +32,7 @@ nav ul li {
 }
 
 .art-item .image-container {
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 .art-item img {
