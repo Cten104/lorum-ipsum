@@ -16,7 +16,7 @@ nav ul li {
 
 /*for sponsor section*/
 
-.sponsor-item {
+/*.sponsor-item {
   display: flex;
   align-items: center; 
   justify-content: space-between; 
@@ -35,7 +35,7 @@ nav ul li {
 .sponsor-item div {
   width: 55%; 
   text-align: left; 
-}
+}*/
 
 /*for the gallery section*/
 
