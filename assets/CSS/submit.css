@@ -17,9 +17,12 @@
   border-radius: 10px;
 }
 
-#submit-art{
-  width: 35%;
-  height: 35%;
+#submit-map {
   display: block;
-  margin: 0 auto;
+}
+
+#submit-art {
+  width: 645px;
+  height: 645px;
+  display: block;
 }
