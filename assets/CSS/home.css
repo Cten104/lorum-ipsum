@@ -16,7 +16,7 @@ nav ul li {
 
 /*for sponsor section*/
 
-/*.sponsor-item {
+.home-sponsor-item {
   display: flex;
   align-items: center; 
   justify-content: space-between; 
@@ -26,16 +26,16 @@ nav ul li {
   border-radius: 10px; 
 }
 
-.sponsor-item img {
+.home-sponsor-item img {
   width: 40%; 
   height: auto; 
   margin-left: 20px; 
 }
 
-.sponsor-item div {
+.home-sponsor-item div {
   width: 55%; 
   text-align: left; 
-}*/
+}
 
 /*for the gallery section*/
 
