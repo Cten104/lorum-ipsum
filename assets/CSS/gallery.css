@@ -59,13 +59,13 @@
   margin-right: auto;
 }
 
-..recently-sold-text h2 {
+.recently-sold-text h2 {
   color: #333;
   margin-bottom: 10px;
   font-size: 2.5em;
 }
 
-..recently-sold-text p, .recently-sold-text ol {
+.recently-sold-text p, .recently-sold-text ol {
   color: #333;
   line-height: 1.6;
   font-size: 1.8em;
