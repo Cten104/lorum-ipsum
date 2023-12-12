@@ -1,3 +1,12 @@
 .success-text {
   text-align: center;
 }
+
+#name {
+  font-family: 'Times New Roman';
+  flex-basis: 45%; 
+  border: 2px solid #383434; 
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; 
+}
