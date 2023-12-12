@@ -48,7 +48,7 @@
   background-color: rgb(60, 160, 37);
 }
 
-.recently-sold-text {
+.gallery-text {
   border: 1px solid #383434;
   padding: 20px; 
   margin: 20px 0;
@@ -59,22 +59,22 @@
   margin-right: auto;
 }
 
-.recently-sold-text h2 {
+.gallery-text h2 {
   color: #333;
   margin-bottom: 10px;
   font-size: 2.5em;
 }
 
-.recently-sold-text p, .recently-sold-text ol {
+.gallery-text p, .gallery-text ol {
   color: #333;
   line-height: 1.6;
   font-size: 1.8em;
 }
 
-.recently-sold-text ol {
+.gallery-text ol {
   padding-left: 20px;
 }
 
-.recently-sold-text li {
+.gallery-text li {
   margin-bottom: 10px;
 }
