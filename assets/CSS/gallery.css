@@ -48,7 +48,7 @@
   background-color: rgb(60, 160, 37);
 }
 
-.gallery-text {
+.gallerytext {
   border: 1px solid #383434;
   padding: 20px; 
   margin: 20px 0;
@@ -59,22 +59,22 @@
   margin-right: auto;
 }
 
-.gallery-text h2 {
+.gallerytext h2 {
   color: #333;
   margin-bottom: 10px;
   font-size: 2.5em;
 }
 
-.gallery-text p, .gallery-text ol {
+.gallerytext p, .gallery-text ol {
   color: #333;
   line-height: 1.6;
   font-size: 1.8em;
 }
 
-.gallery-text ol {
+.gallerytext ol {
   padding-left: 20px;
 }
 
-.gallery-text li {
+.gallerytext li {
   margin-bottom: 10px;
 }
