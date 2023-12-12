@@ -13,6 +13,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="assets/js/scripts.js" async></script>
     <script src="assets/js/darkmode.js" async></script>
+    <script src="assets/js/submit.js" async></script>
     <!-- add css and js link-->
 </head>
 
@@ -43,7 +44,7 @@
             <br>
             <p><em>Please note: All work will be analyzed by our team to ensure the art is AI-generated. Any original pieces will be rejected.</em></p>
     
-            <form action="success.html" method="get" name="Form" id="Form">
+            <form action="success.html" method="get" name="Form" id="Form" onsubmit="handleFormSubmit()">
                 <label for="name">Name</label><br>
                 <input type="text" id="name" name="name" required placeholder="Name"><br>
                 <label for="email">Email</label><br>
